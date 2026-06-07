@@ -9,14 +9,11 @@ export function ProfileHeader({ onInView }: { onInView: () => void }) {
     <motion.header
       onViewportEnter={onInView}
       viewport={{ amount: 0.5 }}
-      initial={{ opacity: 0, y: 24 }}
+      initial={{ opacity: 0, y: 64 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: 'easeOut' }}
-      className="mt-35 flex min-h-[88vh] flex-col items-center justify-center text-center"
+      className="flex min-h-[88vh] flex-col items-center justify-center text-center pt-28"
     >
-
-
-
       <h1 className="mt-6 font-serif text-3xl font-bold tracking-tight text-foreground text-balance sm:text-4xl">
         {profile.name}
       </h1>

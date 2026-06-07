@@ -14,7 +14,7 @@ export default function Page() {
     <main className="relative min-h-screen">
       <ScrollBackground images={backgrounds} activeIndex={activeIndex} />
 
-      <div className="relative z-10 mx-auto w-full max-w-xl px-5 pb-24 sm:px-6">
+      <div className="relative z-10 mx-auto w-full max-w-xl px-5 pt-30 pb-24 sm:px-6">
         <ProfileHeader onInView={() => setActiveIndex(0)} />
 
         <div className="flex flex-col">

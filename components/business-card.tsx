@@ -24,14 +24,14 @@ export function BusinessCard({
       <div className="group relative overflow-hidden rounded-3xl border border-border bg-card/40 p-6 backdrop-blur-xl transition-all duration-500 hover:border-primary/50 hover:bg-card/55 sm:p-8">
         {/* glow accent */}
         <div className="pointer-events-none absolute -inset-px rounded-3xl opacity-0 transition-opacity duration-500 group-hover:opacity-100 [background:radial-gradient(120px_circle_at_top,oklch(0.82_0.09_78/0.12),transparent_70%)]" />
-
+        <div>
+          <img src={business.logo} className='w-20 h-20 mx-auto mb-4 rounded-full' alt="" />
+        </div>
         <div className="relative">
           <h2 className="font-serif text-center text-2xl font-semibold tracking-tight text-foreground text-balance sm:text-3xl">
             {business.name}
           </h2>
-          <p className="mt-2 text-sm leading-relaxed text-muted-foreground sm:text-base">
-            {business.tagline}
-          </p>
+
 
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             {business.website && (

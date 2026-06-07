@@ -16,16 +16,16 @@ export type SocialLink = {
 export type Business = {
   id: string
   name: string
-  tagline: string
   website?: string
   instagram?: string
+  logo: string
   /** Background image swapped in when this section is in view */
   background: string
 }
 
 export const profile = {
   name: 'Umut Arda Yılmaz',
-  bio: 'Founder, Chairman & Community Leader. Building businesses and bridging cultures across the Turkic world.',
+  bio: 'Bilecik Şeyh Edebali Üniversitesi Siyaset Bilimi ve Kamu Yönetimi bölümünde başladığı lisans eğitimini, 2026 yılı itibarıyla Uluslararası İlişkiler bölümünde sürdürmektedir. Türk Devletleri Teşkilatı Gençlik Platformu olan Türk Dünyası Gençlik Konseyi Bilecik Teşkilatı’nın Kurucu Onursal Başkanı olan Yılmaz; Türk dünyasına yönelik stratejik projeler yürütmektedir.',
   avatar: '/avatar.png',
 }
 
@@ -43,25 +43,25 @@ export const businesses: Business[] = [
   {
     id: 'arda-timber',
     name: 'ARDA LUXURY',
-    tagline: 'Üstün kaliteli ahşap tasarım ve üst düzey işçilik',
     website: 'https://arda-luxury.com',
     instagram: 'https://www.instagram.com/ardaluxury?igsh=emJydGo1ZXRzdXd3',
     background: '/bg-timber.png',
+    logo: '/adra-luxury.jpeg',
   },
   {
     id: 'tengria-akademi',
     name: 'TENGRIA',
-    tagline: 'Dil, sanat ve tarih için dijital eğitim platformu',
     instagram: 'https://www.instagram.com/tengriaofficial?igsh=emJydGo1ZXRzdXd3',
     background: '/bg-akademi.png',
+    logo: '/tengria.jpeg',
   },
   {
     id: 'tdkg',
-    name: 'TÜRK DÜNYASI GENÇLİK KONSEYİ',
-    tagline: 'Konsey başkanı',
+    name: 'BİLECİK TÜRK DÜNYASI GENÇLİK KONSEYİ',
     instagram: 'https://www.instagram.com/bilecik_tdgk/',
     website: 'https://bseu-tdgk.org.tr',
     background: '/bg-akademi.png',
+    logo: '/tdgk.jpeg',
   },
 
 ]
