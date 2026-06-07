@@ -60,6 +60,7 @@ export const businesses: Business[] = [
     name: 'TÜRK DÜNYASI GENÇLİK KONSEYİ',
     tagline: 'Konsey başkanı',
     instagram: 'https://www.instagram.com/bilecik_tdgk/',
+    website: 'https://bseu-tdgk.org.tr',
     background: '/bg-akademi.png',
   },
 

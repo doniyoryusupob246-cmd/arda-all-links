@@ -12,7 +12,7 @@ export function ProfileHeader({ onInView }: { onInView: () => void }) {
       initial={{ opacity: 0, y: 24 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: 'easeOut' }}
-      className="flex min-h-[88vh] flex-col items-center justify-center text-center"
+      className="mt-35 flex min-h-[88vh] flex-col items-center justify-center text-center"
     >
 
 
