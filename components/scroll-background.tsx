@@ -7,7 +7,7 @@ export function ScrollBackground({
   const src = images[0]
 
   return (
-    <div className="absolute inset-x-0 -top-35 h-screen z-0 overflow-hidden bg-background">
+    <div className="absolute inset-x-0 -top-65 h-screen z-0 overflow-hidden bg-background">
       {src && (
         <div className="absolute inset-0">
           <img
