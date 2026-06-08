@@ -18,6 +18,10 @@ export function ProfileHeader({ onInView }: { onInView: () => void }) {
         {profile.name}
       </h1>
 
+      <p className="mt-3 text-pretty text-[25px] leading-relaxed text-white">
+        𐱅𐰇𐰼𐰜
+      </p>
+
       <p className="mt-3 max-w-md text-pretty text-sm leading-relaxed text-white sm:text-base">
         {profile.bio}
       </p>

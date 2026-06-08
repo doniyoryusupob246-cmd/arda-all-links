@@ -15,27 +15,11 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Umut Arda Yılmaz — Founder, Chairman & Community Leader',
+  title: 'Umut Arda Yılmaz',
   description:
-    'Building businesses and bridging cultures across the Turkic world. Explore Arda Luxury Timber Design, Turan Akademi, and Turan Birlik Konseyi.',
-  generator: 'v0.app',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
-  },
+    'Bilecik Şeyh Edebali Üniversitesi Siyaset Bilimi ve Kamu Yönetimi bölümünde başladığı lisans eğitimini, 2026 yılı itibarıyla Uluslararası İlişkiler bölümünde sürdürmektedir. Türk Devletleri Teşkilatı Gençlik Platformu olan Türk Dünyası Gençlik Konseyi Bilecik Teşkilatı’nın Kurucu Onursal Başkanı olan Yılmaz; Türk dünyasına yönelik stratejik projeler yürütmektedir.',
+
+
 }
 
 export default function RootLayout({

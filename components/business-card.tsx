@@ -33,7 +33,7 @@ export function BusinessCard({
           </h2>
 
 
-          <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-6 flex flex-col gap-3">
             {business.website && (
               <a
                 href={business.website}
@@ -51,9 +51,30 @@ export function BusinessCard({
               rel="noopener noreferrer"
               className="inline-flex flex-1 items-center justify-center gap-2 rounded-xl border border-border bg-secondary/40 px-5 py-3 text-sm font-medium text-foreground transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/60 hover:bg-secondary/70"
             >
-              <InstagramIcon className="size-4" />
               Instagram
             </a>
+            {business.linkedin && (
+              <a
+                href={business.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex flex-1 items-center justify-center gap-2 rounded-xl border border-border bg-secondary/40 px-5 py-3 text-sm font-medium text-foreground transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/60 hover:bg-secondary/70"
+              >
+                Linkedin
+              </a>
+            )}
+            {
+              business.tiktok && (
+                <a
+                  href={business.tiktok}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex flex-1 items-center justify-center gap-2 rounded-xl border border-border bg-secondary/40 px-5 py-3 text-sm font-medium text-foreground transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/60 hover:bg-secondary/70"
+                >
+                  TikTok
+                </a>
+              )
+            }
           </div>
         </div>
       </div>

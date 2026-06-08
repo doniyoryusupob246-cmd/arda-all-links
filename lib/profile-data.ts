@@ -19,13 +19,15 @@ export type Business = {
   website?: string
   instagram?: string
   logo: string
+  tiktok?: string
+  linkedin?: string
   /** Background image swapped in when this section is in view */
   background: string
 }
 
 export const profile = {
   name: 'Umut Arda Yılmaz',
-  bio: 'Bilecik Şeyh Edebali Üniversitesi Siyaset Bilimi ve Kamu Yönetimi bölümünde başladığı lisans eğitimini, 2026 yılı itibarıyla Uluslararası İlişkiler bölümünde sürdürmektedir. Türk Devletleri Teşkilatı Gençlik Platformu olan Türk Dünyası Gençlik Konseyi Bilecik Teşkilatı’nın Kurucu Onursal Başkanı olan Yılmaz; Türk dünyasına yönelik stratejik projeler yürütmektedir.',
+  bio: 'Bilecik Şeyh Edebali Üniversitesi Siyaset Bilimi Kamu Yönetimi bölümünde başladığı lisans eğitimini, 2026 yılı itibarıyla Uluslararası İlişkiler bölümünde sürdürmektedir. Türk Devletleri Teşkilatı Gençlik Platformu olan Türk Dünyası Gençlik Konseyi Bilecik Teşkilatı’nın Kurucu Onursal Başkanı Umut Arda Yılmaz; Türk dünyasına yönelik stratejik projeler yürütmektedir.',
   avatar: '/avatar.png',
 }
 
@@ -47,6 +49,7 @@ export const businesses: Business[] = [
     instagram: 'https://www.instagram.com/ardaluxury?igsh=emJydGo1ZXRzdXd3',
     background: '/bg-timber.png',
     logo: '/adra-luxury.jpeg',
+    linkedin: 'https://www.linkedin.com/company/arda-luxury',
   },
   {
     id: 'tengria-akademi',
@@ -54,6 +57,7 @@ export const businesses: Business[] = [
     instagram: 'https://www.instagram.com/tengriaofficial?igsh=emJydGo1ZXRzdXd3',
     background: '/bg-akademi.png',
     logo: '/tengria.jpeg',
+    tiktok: 'https://www.tiktok.com/@tengriaofficial?_r=1&_t=ZS-972zJSPR0lx'
   },
   {
     id: 'tdkg',

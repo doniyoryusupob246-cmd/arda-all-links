@@ -14,7 +14,7 @@ export function ScrollBackground({
             src={src}
             alt=""
             aria-hidden="true"
-            className="h-full w-full object-cover object-bottom saturate-[1.05]"
+            className="h-full w-full object-cover object-bottom md:object-[center_70%] saturate-[1.05]"
           />
           {/* Light tint overlay on the photo for text readability */}
           <div className="absolute inset-0 bg-black/15" />
