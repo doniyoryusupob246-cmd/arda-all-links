@@ -1,7 +1,8 @@
 'use client'
 
+import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { profile, socials } from '@/lib/profile-data'
+import { pages, profile, socials } from '@/lib/profile-data'
 import { ChevronDown } from 'lucide-react'
 
 export function ProfileHeader({ onInView }: { onInView: () => void }) {
@@ -38,6 +39,19 @@ export function ProfileHeader({ onInView }: { onInView: () => void }) {
           >
             <Icon className="size-5" />
           </a>
+        ))}
+      </div>
+
+      <div className="mt-5 grid w-full max-w-xs grid-cols-2 gap-3">
+        {pages.map(({ label, href, icon: Icon }) => (
+          <Link
+            key={href}
+            href={href}
+            className="inline-flex items-center justify-center gap-2 rounded-xl border border-border bg-card/40 px-5 py-3 text-sm font-medium text-foreground backdrop-blur-xl transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/60 hover:bg-card/70 hover:text-primary"
+          >
+            <Icon className="size-4" />
+            {label}
+          </Link>
         ))}
       </div>
 

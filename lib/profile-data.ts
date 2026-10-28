@@ -5,13 +5,19 @@ import {
   TelegramIcon,
   WhatsappIcon,
 } from '@/components/brand-icons'
-import { Mail } from 'lucide-react'
+import { BookOpen, Images, Mail } from 'lucide-react'
 
 export type SocialLink = {
   label: string
   href: string
   icon: ComponentType<SVGProps<SVGSVGElement>>
 }
+
+// Internal pages shown as buttons under the social icons.
+export const pages: SocialLink[] = [
+  { label: 'Galeri', href: '/galeri', icon: Images },
+  { label: 'Blog', href: '/blog', icon: BookOpen },
+]
 
 export type Business = {
   id: string

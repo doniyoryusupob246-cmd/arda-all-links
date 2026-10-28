@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { BusinessCard } from '@/components/business-card'
 import { ProfileHeader } from '@/components/profile-header'
 import { ScrollBackground } from '@/components/scroll-background'
+import { SecretLogin } from '@/components/secret-login'
 import { backgrounds, businesses } from '@/lib/profile-data'
 
 export default function Page() {
@@ -29,7 +30,9 @@ export default function Page() {
           </div>
 
           <footer className="pt-8 text-center text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Umut Arda Yılmaz. All rights reserved.
+            <SecretLogin>
+              © {new Date().getFullYear()} Umut Arda Yılmaz. All rights reserved.
+            </SecretLogin>
           </footer>
         </div>
       </div>
