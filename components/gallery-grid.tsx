@@ -35,7 +35,7 @@ export function GalleryGrid({ images }: { images: GalleryImage[] }) {
 
   return (
     <>
-      <div className="columns-2 gap-3">
+      <div className="columns-2 gap-3 md:columns-3">
         {images.map((image, i) => (
           <motion.button
             key={image.src}

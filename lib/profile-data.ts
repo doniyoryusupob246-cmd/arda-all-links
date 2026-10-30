@@ -4,6 +4,7 @@ import {
   LinkedinIcon,
   TelegramIcon,
   WhatsappIcon,
+  XIcon,
 } from '@/components/brand-icons'
 import { BookOpen, Images, Mail } from 'lucide-react'
 
@@ -42,6 +43,7 @@ export const socials: SocialLink[] = [
   { label: 'Telegram', href: 'https://t.me/UMUTT_ARDA', icon: TelegramIcon },
   { label: 'Instagram', href: 'https://www.instagram.com/umuttarda_81?igsh=MXBobTEwbWlqYXUwaQ==', icon: InstagramIcon },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/umut-arda-yilmaz-45b39b377?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', icon: LinkedinIcon },
+  { label: 'X', href: 'https://x.com/umuttarda81', icon: XIcon },
 ]
 
 // Swap these placeholder image paths with your own personal photos later.

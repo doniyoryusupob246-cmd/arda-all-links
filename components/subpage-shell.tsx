@@ -16,7 +16,7 @@ export function SubpageShell({
 }) {
   return (
     <main className="relative min-h-screen bg-zinc-950 flex justify-center">
-      <div className="relative w-full max-w-md min-h-screen bg-background border-x border-zinc-800/40 shadow-2xl overflow-x-hidden flex flex-col">
+      <div className="relative w-full max-w-md md:max-w-3xl min-h-screen bg-background border-x border-zinc-800/40 shadow-2xl overflow-x-hidden flex flex-col">
         {/* Warm glow behind the page title */}
         <div className="pointer-events-none absolute inset-x-0 top-0 h-72 [background:radial-gradient(70%_100%_at_50%_0%,oklch(0.82_0.09_78/0.12),transparent_70%)]" />
 

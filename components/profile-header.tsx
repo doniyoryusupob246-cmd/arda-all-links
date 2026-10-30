@@ -13,7 +13,7 @@ export function ProfileHeader({ onInView }: { onInView: () => void }) {
       initial={{ opacity: 0, y: 64 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: 'easeOut' }}
-      className="flex min-h-[88vh] flex-col items-center justify-center text-center pt-28"
+      className="flex flex-col items-center justify-center text-center pt-28 pb-6"
     >
       <h1 className="mt-6 font-serif text-3xl font-bold tracking-tight text-foreground text-balance sm:text-4xl">
         {profile.name}
@@ -59,7 +59,7 @@ export function ProfileHeader({ onInView }: { onInView: () => void }) {
         aria-hidden="true"
         animate={{ y: [0, 8, 0] }}
         transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, ease: 'easeInOut' }}
-        className="mt-14 text-xs uppercase tracking-[0.3em] text-muted-foreground"
+        className="mt-8 text-xs uppercase tracking-[0.3em] text-muted-foreground"
       >
         <ChevronDown />
       </motion.div>

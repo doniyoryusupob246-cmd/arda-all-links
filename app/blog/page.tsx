@@ -13,9 +13,9 @@ export default async function BlogPage() {
 
   return (
     <SubpageShell title="Blog" subtitle="Yazılar ve notlar">
-      <div className="flex flex-col gap-5">
+      <div className="grid gap-5 md:grid-cols-2">
         {posts.length === 0 && (
-          <p className="text-center text-sm text-muted-foreground">Henüz yazı yok.</p>
+          <p className="text-center text-sm text-muted-foreground md:col-span-2">Henüz yazı yok.</p>
         )}
         {posts.map((post) => (
           <Link
